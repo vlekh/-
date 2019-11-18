@@ -1,0 +1,143 @@
+body {
+    max-width: 980px;
+    margin: auto;
+  background-color:rgb(252, 250, 246);
+}
+#logo a {
+    margin-top: 40px;
+    margin-left: 25px;
+    float: left;
+    
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    font-size: 26px;
+    font-family: 'Bungee Shade'serif;
+    text-shadow: 0 1px 0 white;
+}
+
+header nav .menu {
+    font-family: 'Oranienbaum', serif;
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin-right: 20px;
+    padding-top: 20px;
+}
+
+header nav .menu a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: var(--main-color);
+    padding: 0 10px;
+    text-shadow: 0 1px 0 white;
+}
+
+header nav .menu a:hover {
+    color: var(--accent-color);
+}
+
+header nav .menu li {
+        display: flex;
+        align-items: center;
+}
+
+@media (min-width: 550px) {
+    header nav {
+        display: flex;
+        align-items: center;
+    }
+
+    header .menu {
+        flex: 1;
+    }
+    article .photo-text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    article .image-left-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-height: 250px;
+        margin: 30px;      
+}
+@media (min-width: 700px) {
+     #text-and-photo {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center; 
+
+    }
+
+    article .photo-text {
+        flex-grow: 2; 
+        justify-content: flex-start;
+        text-align: left;
+        margin-top: 0;
+        
+       
+    }
+
+   article .photo-text h1 {
+        text-align: left;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+
+    @media (min-width: 400px) {
+
+footer .contact-us{
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-gap: 40px;
+}
+article .mouth-text-and-photo {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        margin-left: 270px;
+        margin-right: 50px;
+}
+article .image-left-text {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        max-height: -250px;
+        margin: 30px;      
+}
+@media (min-width: 700px) {
+     #mouth with teeth {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        align-items: center; 
+
+    }
+      article .mouth-text-and-photo {
+        flex-grow: 2; 
+  
+        justify-content: flex-start;
+        text-align: left;
+        margin-top: 0;
+        
+       
+    }
+
+    article .mouth-text-and-photo h1 {
+        text-align: left;
+        justify-content: flex-start;
+        margin-left: 0;
+    }
+article .image-left-text {
+        justify-content: flex-start;
+        margin-top: -250;
+        margin-right: 30; 
+    }  
+   
