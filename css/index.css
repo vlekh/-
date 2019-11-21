@@ -71,14 +71,6 @@ header .banner {
         margin-left : 20px;
         margin-right : auto;
     }
-
-    article .image-left-text {
-        display : flex;
-        flex-direction : row;
-        justify-content : center;
-        max-height : 250px;
-        margin : 30px;
-    }
 }
 
 @media (min-width: 700px) {
@@ -87,21 +79,6 @@ header .banner {
         flex-direction : row-reverse;
         justify-content : center;
         align-items : center;
-    }
-
-    article .photo-text {
-        flex-grow : 2;
-        justify-content : flex-start;
-        text-align : left;
-    }
-
-    article .metalphoto-text {
-        display : flex;
-        flex-direction : column;
-        justify-content : center;
-        text-align : center;
-        margin-left : 50px;
-        margin-right : auto;
     }
 
     article .image-left-text {
